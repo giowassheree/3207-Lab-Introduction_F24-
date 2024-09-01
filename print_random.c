@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-
+char randChar() {
+	return 'A' + (rand() % 26);
+}
 
 int main()
 {
